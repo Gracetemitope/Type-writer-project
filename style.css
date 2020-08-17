@@ -8,7 +8,7 @@ body {
     color: #ffffff;
 }
 .main-container {
-    position: absolute;
+    /* position: absolute; */
     width: 100vw;
     height: 100vh;
     background-image: url("./assets/jane-palash-E8ogJzkJ_pE-unsplash.jpg");
@@ -42,4 +42,18 @@ body {
 h3 {
     width: 100vw;
     /* border: 1px solid black; */
+}
+
+@media (max-width: 760px)  {
+    
+    .text {
+        margin-left: 3%;
+        margin-top: 40%;
+    }
+    h3 {
+        font-size: 29px;
+    }
+    p {
+        font-size: 18px;
+    }
 }
